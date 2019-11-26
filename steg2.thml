@@ -1,0 +1,77 @@
+<html>
+	<head>
+
+	<meta charset="utf-8"/>
+		<title>GTM - Steg 2</title>
+
+<style>
+body {
+background-color: white;
+font-family: helvetica;
+align-content: left;
+text-align: left;
+padding-top: 30px;
+
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+	</head>
+
+	<body>
+
+
+
+	<h1>Steg 2 - Implementera din egen GTM</h1>
+
+		<ul>
+  			<li>På efterkommande sidor har jag tagit bort GTM scriptet på siten</li>
+  			<li>Nu ska du få testa att implementera din GTM på dessa sidor</li>
+  			<li>Verifiera att det fungerar genom att få upp debug genom att klicka preview och uppdatera sidan</li>
+  			<li>Ibland krävs det en hard refresh CTRL + Shift + R</li>
+		</ul>
+
+
+
+
+	<br>
+	<h3> Om du inte får det att fungera med Google Tag Manager Preview se nedan</h3>
+		<ul>
+  			<li>Dubbelkolla att du lagt in rätt GTM ID (akta för mellanrum)</li>
+  			<li>Titta om det är rätt domän i ditt GTM konto, under Admin, Container Settings</li>
+  			<li>Lägg in ditt ID och skriv in domänen som exact {ditt unika namn}.netlify.com</li>
+  			<li>Har du laddat upp din nya mapp på Netlify</li>
+  			<li>Ibland krävs det en hard refresh CTRL + Shift + R, igen</li>
+  			<li>Säkerställ att du verkligen aktiervat GTM debug</li>
+  			<li>Stäng av Google Chrome addons som kan tänkas störa</li>
+  			<li>Filen måste vara live på en webbserver för att det ska fungera</li>
+  			<li>Öppna developer console, i network tabben, hitta gtm.js se om det är status code 200</li>
+		</ul>
+	<br>
+
+		<a href="steg3.html">Gå vidare till steg 3</a>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
