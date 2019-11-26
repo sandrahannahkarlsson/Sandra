@@ -1,0 +1,86 @@
+<html>
+	<head>
+
+	<meta charset="utf-8"/>
+		<title>GTM - Steg 4</title>
+
+<style>
+body {
+background-color: white;
+font-family: helvetica;
+align-content: left;
+text-align: left;
+padding-top: 30px;
+
+}
+
+</style>
+
+
+
+
+
+
+
+	</head>
+
+	<body>
+
+
+
+	<h1>Steg 4 - Spåra klick på knappar</h1>
+
+		<ul>
+  			<li>I GTM, gå in i på Variables och aktivera alla</li>
+  			<li>Skapa en Custom HTML Tag</li>
+  			<li>Hämta HTML för en "Alert" från <a href="https://www.w3schools.com/jsref/met_win_alert.asp">w3schools</a></li>
+  			<li>Copy/Paste in Alert-koden din Custom HTML Tag</li>
+  			<li>Skapa en Trigger som enbart avfyrar på klick från den gröna knappen</li>
+  			<li>Trigga förslagvis på Click ID eller Click Text</li>
+  			<li>Lägg till din nya Trigger till din Custom HTML Tag</li>
+  			<li>Se till att den Triggar genom GTM Preview Mode </li>
+  			<li>Får det inte att fungera? Kolla denna video <a href="https://www.youtube.com/watch?v=lDMlw8CLgvA">https://www.youtube.com/watch?v=lDMlw8CLgvA</a> </li>
+
+
+
+
+
+
+		</ul>
+
+			<input type="button" class="button" id="green" value="Grön CTA" onclick="colorPage('#2ecc71','green')" /><br><br>
+			<input type="button" class="button" id="blue" value="Blå CTA" onclick="colorPage('#3498db','blue');" /><br><br>
+			<input type="button" class="button" id="yellow" value="Gul CTA" onclick="colorPage('#f1c40f','yellow');" /><br><br>
+		</p>
+
+
+
+
+		<a href="steg5.html">Gå vidare till steg 5</a> <br><br>
+
+
+
+
+
+
+<script>
+
+		function colorPage(colorCode, colorName){
+			document.body.style.backgroundColor = colorCode;
+
+		}
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
